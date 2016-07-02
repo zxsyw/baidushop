@@ -1,0 +1,17 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,p,input{
+ margin:0;
+ padding:0;
+ list-style:none;/*清楚列表小圆点*/
+ font-family:Arial,"微软雅黑","宋体";
+}
+a{
+font-family: "微软雅黑","宋体","sans-serif";
+ color:#666;
+ text-decoration:none;
+}
+img{
+	border: none;
+}
+* {
+    font-family: 微软雅黑, 宋体, sans-serif;
+}
