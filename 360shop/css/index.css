@@ -1,0 +1,659 @@
+/*公共部分*/
+body,h1,h2,h3,h4,h5,h6,ul,li,input,p,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: none;
+}
+a{
+    color: #666;
+    text-decoration: none;
+}
+i,em{
+    font: inherit;
+}
+body{
+    font-family: Tahoma,Arial,Roboto,”Droid Sans”,”Helvetica Neue”,”Droid Sans Fallback”,”Heiti SC”,sans-self;
+    color: #666;
+    height: auto;
+    background: #f4f4f4;
+    position: relative;
+    over flow: hidden;
+}
+
+/*内容样式*/
+
+/*app下载*/
+.appdown{
+    height:50px;
+    background: #474747;
+}
+.closebtn{
+    width: 44px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+.closebtn img{
+    width:14px;
+    height:14px;
+    overflow: hidden;
+}
+.downtext{
+    width: 80%;
+    height:50px;
+    display: block;
+    overflow: hidden;
+    line-height: 50px;
+    float: left;
+}
+.logo{
+    height:50px;
+    line-height: 50px;
+    float: left;
+}
+.logo img{
+    height:42px ;
+    margin-top:4px;
+    overflow: hidden;
+    width:42px;
+}
+.logowen{
+    color: #fff;
+    margin:8px 0 0 10px;
+    float: left;
+}
+.logowen em{
+    display: block;
+    height: auto;
+    line-height: normal;
+    font-style: normal;
+}
+.appwen{
+   font-size: 14px;
+}
+.khwen{
+    font-size: 12px;
+}
+/*banner开始*/
+.swiper-slide a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.swiper-slide a img{
+    width: 100%;
+    height:100%;
+}
+/*智品牌*/
+.zhipbox{
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+    padding: 15px 0;
+}
+.zhipbox a{
+    color: #666;
+    display: block;
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+.zhipbox a img{
+    border-radius:30px;
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    width: 50px;
+}
+.zhipbox a span{
+    display: block;
+    font-size: 15px;
+    margin-top: 7px;
+}
+/*智能新闻*/
+.zhinews{
+    background: #fff;
+    padding: 12px 15px;
+}
+.zhinews .newsimg{
+    border-right: 1px solid #e1e1e1;
+    float: left;
+    font-size: 12px;
+    height: 16px;
+    padding-right: 5px;
+}
+.zhinews .newsimg img{
+    font-size: 12px;
+    height: 16px;
+    overflow: hidden;
+    width: 63px;
+}
+.newsscroll{
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+}
+.scroll-box{
+    color: #444;
+    font-size: 11px;
+    line-height: 16px;
+    overflow: hidden;
+}
+.scroll-box a{
+    display: block;
+    font-size: 13px;
+    height: 16px;
+    line-height: 16px;
+}
+.scroll-box a em{
+    color: #f66;
+    float: left;
+    font-style: normal;
+    padding:0 5px;
+}
+.scroll-box a i{
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font: inherit;
+}
+/*撑上抢*/
+.zhang-box{
+    background: #fff;
+    margin-top: 10px;
+}
+.zhang-box .zhang-top{
+    border-bottom: 1px solid #eaeaea;
+    clear: both;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 15px;
+    position: relative;
+}
+.zhang-box .zhang-top span{
+    color: #f55;
+    display: inline-block;
+    font-size: 15px;
+}
+.zhang-box .zhang-top a{
+    color: #222;
+    font-size: 14px;
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+.star-plist{
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+}
+.star-plist li{
+    margin: 10px 0;
+    padding: 0;
+    width: auto;
+    border-right: 1px solid #f1f1f1;
+    text-align: center;
+}
+.star-plist li a{
+    display: block;
+    float: none;
+}
+.star-plist .pimg{
+    display: block;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+}
+.star-plist .pimg img{
+    height: 95px;
+    width: 95px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.star-plist .star-title{
+    color: #555;
+    display: block;
+    font-size: 13px;
+    height: 16px;
+    line-height: 16px;
+    margin: 5px 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.star-plist .star-price{
+    color: #f55;
+    display: block;
+    font-size: 14px;
+    margin: 5px 5px 0;
+    text-align: center;
+}
+.star-plist .original-price{
+    color: #aaa;
+    font-size: 10px;
+    font-style: normal;
+    text-decoration: line-through;
+}
+/*横图*/
+.hengtu-box{
+
+}
+.hengtu-box a{
+
+}
+.hengtu-box a img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+/*明星单品*/
+.star-box h2{
+    color: #666;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+.star-box h2 em{
+    color: #ccc;
+    font-style: normal;
+}
+.star-box .star-plits{
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+}
+.star-box .star-plits li{
+    border-right: 1px solid #f1f1f1;
+    padding: 15px 0 7px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+}
+.star-box .star-plits li a{
+    display:block;
+}
+.star-box .star-plits li .star-tips{
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 20px;
+    overflow: hidden;
+    padding: 3px 9px 3px 4px;
+    vertical-align: middle;
+}
+.star-box .star-plits li .star-tips img{
+    float: left;
+    height: 17px;
+    overflow: hidden;
+    width: 17px;
+}
+.star-box .star-plits li .star-tips em{
+    color: #222;
+    float: left;
+    font-style: normal;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+.star-box .star-plits li .pimg{
+    display: block;
+    margin: 7px 10px 0;
+    position: relative;
+    text-align: center;
+}
+.star-box .star-plits li .pimg img{
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 180px;
+}
+.star-box .star-plits li .star-title{
+    color: #555;
+    display: block;
+    font-size: 13px;
+    height: 19px;
+    line-height: 19px;
+    margin: 7px 8px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.star-box .star-plits li .star-price{
+    color: #f55;
+    display: block;
+    font-size: 14px;
+    margin: 5px 8px 0;
+    text-align: center;
+}
+.star-box .star-plits li .star-price .pdot{
+    font-size: 11px;
+}
+.star-box .star-plits li:nth-child(2){
+    border-right: none;
+}
+.star-box .original-price{
+    color: #aaa;
+    font-size: 10px;
+    font-style: normal;
+    text-decoration: line-through;
+}
+.star-box .farm{
+    background: #f66;
+    border-radius: 1px;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 5px;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+    text-indent: 0;
+    vertical-align: middle;
+}
+/*新品*/
+.xinping-box h2{
+    color: #666;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+.xinping-box h2 em{
+    color: #ccc;
+}
+.xinping-box ul li a{
+    display: block;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.xinping-box ul li a span{
+    display: block;
+    position: relative;
+}
+.xinping-box ul li a span img{
+    height: auto;
+    width: 100%;
+}
+.price-r{
+    background: rgba(0,0,0,0.4);
+    bottom: 20px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-style: normal;
+    height: 27px;
+    line-height: 27px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 54px;
+}
+.price-st{
+    color: #222;
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+    padding: 0 15px;
+    font-weight: normal;
+}
+.price-wen{
+    color: #999;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+    padding: 0 15px;
+    margin-top: 6px;
+    overflow: hidden;
+    padding-bottom: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*同类版区*/
+.tl-title{
+    color: #666;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+.tl-title em{
+    color: #ccc;
+}
+.tl-img a img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.tl-list{
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+}
+.tl-list li{
+    border-right: 1px solid #f1f1f1;
+    padding: 15px 0 7px;
+    text-align: left;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+}
+.tl-list li a{
+    display: block;
+}
+.tl-list li a .tl-list-img{
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.tl-list li a .tl-list-img img{
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 180px;
+}
+.tl-list li a .sj-title{
+    color: #555;
+    display: block;
+    font-size: 13px;
+    height: 16px;
+    line-height: 16px;
+    margin: 7px 8px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tl-list li a .sj-norms{
+    color: #999;
+    font-size: 12px;
+    height: 14px;
+    line-height: 14px;
+    margin: 4px 8px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tl-list li a .sj-price{
+    position: relative;
+    color: #f55;
+    display: block;
+    font-size: 14px;
+    margin: 5px 8px 0;
+    text-align: left;
+}
+.tl-list li a .sj-price .sj-dpot{
+    font-size: 11px;
+}
+.sj-price .sj-original-price{
+    color: #aaa;
+    font-size: 10px;
+    font-style: normal;
+    text-decoration: line-through;
+}
+.sj-price em{
+    position: absolute;
+    right: 3px;
+    top: 0;
+    background: #f66;
+    border-radius: 1px;
+    color: #fff;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 5px;
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-left: 2px;
+    text-indent: 0;
+    vertical-align: middle;
+}
+.tl-list li:nth-child(2){
+    border-right: none;
+}
+/*更多商品*/
+.moreshop{
+    background: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+    color: #666;
+    display: block;
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+/*底部*/
+.foot-box{
+    background: #fff;
+    color: #5c5c5c;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+.foot-box .foot-top{
+    display: -webkit-box;
+    padding: 13px 0;
+}
+.foot-box .foot-top .yuan{
+    border-right: 1px solid #d6d6d6;
+    color: #666;
+    width: 33.333333%;
+    font-size: 11px;
+}
+.foot-box .foot-top .yuan:nth-child(3){
+    border: none;
+}
+.foot-box .foot-top .yuan .day-box{
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    color: #666;
+    display: block;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 auto;
+    width: 35px;
+}
+.foot-box .foot-top .yuan em{
+    display: block;
+    height: 12px;
+    line-height: 12px;
+    margin-top: 7px;
+}
+.copyright{
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 10px;
+}
+.foot-bottom{
+    border-top: solid 1px #d6d6d6;
+    font-size: 10px;
+    line-height: 48px;
+}
+.foot-bottom, .foot-bottom a{
+    color: #999;
+}
+/*菜单*/
+.menu-box{
+    background: #fff;
+    border-top: 1px solid #d0d0d0;
+    border-bottom: 1px solid #d0d0d0;
+    bottom: 0;
+    height: 63px;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+}
+.menu-box ul{
+    display: -webkit-box;
+}
+.menu-box ul li{
+    width: 25%;
+    text-align: center;
+    -webkit-box-flex: 1;
+    display: block;
+}
+.menu-box ul li em{
+    display: block;
+    height: 40px;
+    margin: 0 auto;
+    width: 60px;
+}
+.menu-box ul li span{
+    color: #555;
+    display: block;
+    font-size: 10px;
+    text-align: center;
+}
+.menu-box ul li:nth-child(1) span{
+    color: #19a243;
+}
+.menu-box ul li .shouye{
+    background: url(../images/t011a7cd356bb976213.png) no-repeat;
+    background-size: 60px 40px;
+}
+.menu-box ul li .leibie{
+    background: url(../images/t01e287c3490e3f14da.png) no-repeat;
+    background-size: 60px 40px;
+}
+.menu-box ul li .gouwu{
+    background: url(../images/t01069055004f2dcc51.png) no-repeat;
+    background-size: 60px 40px;
+}
+.menu-box ul li .me{
+    background: url(../images/t01821a03716758d2e1.png) no-repeat;
+    background-size: 60px 40px;
+}
+
+.back{
+    background: url(../images/t01f5f76d46b615eb46.png) no-repeat;
+    background-size: 34px 34px;
+    background-position: 0 0;
+    bottom: 80px;
+    display: inline-block;
+    height: 34px;
+    position: fixed;
+    right: 0;
+    width: 34px;
+    z-index: 9999;
+}
